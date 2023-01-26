@@ -7,9 +7,9 @@ Script 2: Remove_boundary_ROIs_v02.ijm
 Removed the nuclei ROIs touching the image boundary  
 
 Script 3: Batch_processing_v03.ijm  
-Analyzes all user-defined pattern matching images in a folder for
-- spliting the CZI file into individual channels and save in the current folder
-- do max projection and dave images in the current folder
+Analyzes all user-defined pattern matching images in a folder:
+- split the CZI file into individual channels and save in the current folder
+- do max projection and save image
 - subtract background and save image
 
 
