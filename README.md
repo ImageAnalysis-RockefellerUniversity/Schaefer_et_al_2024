@@ -1,7 +1,15 @@
 This repository contains all the scripts used in the nuclei analysis for the manuscript Schaefer et al.  2023
 
-Script 1: Covert labels to ROIs
-This script does ---
+Script 1: Labels_to_ROIs_v3.ijm  
+Generates the nuclei ROIs from the label image
 
-Script 1: Batch processing for background subtraction, ...
-This script does ---
+Script 2: Remove_boundary_ROIs_v02.ijm  
+Removed the nuclei ROIs touching the image boundary  
+
+Script 3: Batch_processing_v03.ijm  
+Analyzes all user-defined pattern matching images in a folder for
+- spliting the CZI file into individual channels and save in the current folder
+- do max projection and dave images in the current folder
+- subtract background and save image
+
+
